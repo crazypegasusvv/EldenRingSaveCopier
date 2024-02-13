@@ -1,5 +1,4 @@
-﻿
-namespace EldenRingSaveCopy
+﻿namespace EldenRingSaveCopier
 {
     partial class Form1
     {

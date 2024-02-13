@@ -1,17 +1,14 @@
-﻿using System;
-using System.ComponentModel;
-using System.Drawing;
-using System.Linq;
+﻿using System.ComponentModel;
 using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.IO;
 using System.Security.Cryptography;
-using EldenRingSaveCopy.Saves.Model;
+using EldenRingSaveCopier.Saves.Model;
+using System.Runtime.Versioning;
 
-namespace EldenRingSaveCopy
+namespace EldenRingSaveCopier
 {
+    [SupportedOSPlatform("windows")]
     public partial class Form1 : Form
     {
         private FileManager _fileManager;
